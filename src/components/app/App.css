@@ -1,0 +1,105 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-reveal{
+  min-width: 10hv;  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.Image-spin{
+  min-width: 10hv;  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.Image-spin[data-rotation='180'] {
+  animation:spin180  0.2s ease-in;
+}
+
+.Image-spin[data-rotation='360'] {
+  animation: spin360  0.2s ease-out;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.Check-button {
+  position: relative;
+  background-color: #d4d4d4;
+  border: none;
+  font-size: 28px;
+  color: #000000;
+  padding: 20px;
+  width: 200px;
+  text-align: center;
+  transition-duration: 0.4s;
+  text-decoration: none;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.Check-button:hover{
+  animation: wobble infinite 1s;
+}
+
+@keyframes spin180{
+
+  0%{
+    transform: rotate(0deg);
+    -webkit-filter: blur(0px);
+  }
+  100%{
+    -webkit-filter: blur(20px);
+    transform: rotate(180deg);
+  }
+
+}
+
+
+@keyframes spin360{
+
+  0%{
+    transform: rotate(180deg);
+    -webkit-filter: blur(20px);
+  }
+
+  100%{
+    -webkit-filter: blur(0px);
+    transform: rotate(360deg);
+  }
+
+
+}
+
+@keyframes wobble {
+  25% {
+    transform: rotate(5deg);
+  }
+  50% {
+    transform: rotate(-10deg);
+  }
+  75% {
+    transform: rotate(5deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
