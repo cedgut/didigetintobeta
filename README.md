@@ -1,2 +1,2 @@
 ## Issa meme
-ya dip
+ya dips
