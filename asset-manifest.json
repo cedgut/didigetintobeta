@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/didigetintobeta/static/css/main.82117b89.chunk.css",
+    "main.js": "/didigetintobeta/static/js/main.851350f9.chunk.js",
+    "main.js.map": "/didigetintobeta/static/js/main.851350f9.chunk.js.map",
+    "runtime-main.js": "/didigetintobeta/static/js/runtime-main.fc8d7e25.js",
+    "runtime-main.js.map": "/didigetintobeta/static/js/runtime-main.fc8d7e25.js.map",
+    "static/js/2.473ada3c.chunk.js": "/didigetintobeta/static/js/2.473ada3c.chunk.js",
+    "static/js/2.473ada3c.chunk.js.map": "/didigetintobeta/static/js/2.473ada3c.chunk.js.map",
+    "index.html": "/didigetintobeta/index.html",
+    "precache-manifest.0a5651c027b06a79fbc726a5d0c09ecd.js": "/didigetintobeta/precache-manifest.0a5651c027b06a79fbc726a5d0c09ecd.js",
+    "service-worker.js": "/didigetintobeta/service-worker.js",
+    "static/css/main.82117b89.chunk.css.map": "/didigetintobeta/static/css/main.82117b89.chunk.css.map",
+    "static/js/2.473ada3c.chunk.js.LICENSE.txt": "/didigetintobeta/static/js/2.473ada3c.chunk.js.LICENSE.txt",
+    "static/media/logo_shadowlands0.png": "/didigetintobeta/static/media/logo_shadowlands0.c9cd4c9a.png",
+    "static/media/logo_shadowlands1.png": "/didigetintobeta/static/media/logo_shadowlands1.ceec5a01.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.fc8d7e25.js",
+    "static/js/2.473ada3c.chunk.js",
+    "static/css/main.82117b89.chunk.css",
+    "static/js/main.851350f9.chunk.js"
+  ]
+}
